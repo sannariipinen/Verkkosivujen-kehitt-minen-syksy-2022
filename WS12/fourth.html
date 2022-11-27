@@ -10,34 +10,30 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-	<nav>
-			<div class="topnav">
-				  <a class="navbar-brand" href="index.html"><img src="./kuvat/kuva4.jpg" alt="kuva ei saatavilla" width="35" height="35"></a>
-				<a class="nav-link" href="index.html">Muodostelmaluistelu</a>
-				<a class="nav-link" href="second.html">Kilpaileminen</a>
-				<a class="nav-link" href="third.html">MM-Kilpailut</a>
-				<a class="nav-link active" href="fourth.html">SM-Seniorit</a>
-			<div class="search-container">
-		<form action="#">
-      <input type="text" placeholder="Hae.." name="Hae">
+	<ul class="topnav">
+	  <li><a class="navbar-brand" href="index.html"><img src="./kuvat/kuva4.jpg" alt="kuva ei saatavilla" width="35" height="35"></a></li>
+			<li><a href="index.html">Muodostelmaluistelu</a></li>
+				<li><a href="second.html">Kilpaileminen</a></li>
+					<li><a href="third.html">MM-Kilpailut</a></li>
+				<li class="active"><a href="fourth.html">SM-Seniorit</a></li>
+			<form action="#">
+		<input type="text" placeholder="Hae.." name="Hae">
       <button type="Submit">Lähetä</button>
 		</form>
-		<button id="b4" onclick="myFunction()">vaalea/tumma tausta</button>
+			<button id="b4" onclick="myFunction()">vaalea/tumma tausta</button>
 	<script>
 	function myFunction() {
 	var element = document.body;
 	element.classList.toggle("dark-mode");
 	}
 	</script>
-		</div>
-		</div>
-		</nav>
+		</ul>
 	<header>
-		<h1>SM-Seniorit</h1>
-		<h2 id="heikki2">Lajin huipulla</h2>
+	<h1>SM-Seniorit</h1>
+	<h2 id="heikki2">Lajin huipulla</h2>
 	</header>
-	<p id="p2">SM- Seniorit on lajin korkein sarja. Joukkueet kilpailevat 1&2 SM-valintakilpailuissa ja SM-kilpailuissa ja kauden menestyksen mukaan kaksi parhaiten pärjännyttä joukkuetta pääsevät osallistumaan MM-kilpailuihin. Suomessa on tällä hetkellä neljä SM-Seniori joukkuetta. Kolme on Helsingistä ja yksi Turusta. Turun joukkue on ollut kasassa vasta muutaman vuoden.
-	SM-Seniorit kilpailevat kahdella ohjelmalla. Lyhyt- ja vapaaohjelma. Molemmissa on erilaiset elementtivaatimukset:</p>
+		<p id="p2">SM- Seniorit on lajin korkein sarja. Joukkueet kilpailevat 1&2 SM-valintakilpailuissa ja SM-kilpailuissa ja kauden menestyksen mukaan kaksi parhaiten pärjännyttä joukkuetta pääsevät osallistumaan MM-kilpailuihin. Suomessa on tällä hetkellä neljä SM-Seniori joukkuetta. Kolme on Helsingistä ja yksi Turusta. Turun joukkue on ollut kasassa vasta muutaman vuoden.
+	     SM-Seniorit kilpailevat kahdella ohjelmalla. Lyhyt- ja vapaaohjelma. Molemmissa on erilaiset elementtivaatimukset:</p>
 	<div class="container">
   <div class="row">
     <div class="col">
