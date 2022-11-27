@@ -10,30 +10,24 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-	<nav>
-		<div class="topnav">
-				  <a class="navbar-brand" href="index.html"><img src="./kuvat/kuva4.jpg" alt="kuva ei saatavilla" width="35" height="35"></a>
-				<a class="nav-link active" href="index.html">Muodostelmaluistelu</a>
-				<a class="nav-link" href="second.html">Kilpaileminen</a>
-				<a class="nav-link" href="third.html">MM-Kilpailut</a>
-				<a class="nav-link" href="fourth.html">SM-Seniorit</a>
-			<div>
-			<div class="search-container">
-		<form action="#">
+	<ul class="topnav">
+		<li><a class="navbar-brand" href="index.html"><img src="./kuvat/kuva4.jpg" alt="kuva ei saatavilla" width="35" height="35"></a></li>
+			<li class="active"><a href="index.html">Muodostelmaluistelu</a></li>
+				<li><a href="second.html">Kilpaileminen</a></li>
+					<li><a href="third.html">MM-Kilpailut</a></li>
+				<li><a href="fourth.html">SM-Seniorit</a></li>
+			<form action="#">
       <input type="text" placeholder="Hae.." name="Hae">
-      <button type="Submit">Lähetä</button>
+    <button type="Submit">Lähetä</button>
 		</form>
-		<button id="b1" onclick="myFunction()">vaalea/tumma tausta</button>
-	<script>
+			<button id="b4" onclick="myFunction()">vaalea/tumma tausta</button>
+		<script>
 	function myFunction() {
 	var element = document.body;
 	element.classList.toggle("dark-mode");
-		}
-		</script>
-		</div>
-			</div>
-			</div>
-		</nav>
+	}
+	</script>
+		</ul>
 	<header>
 	<h1 id="heikki1">Muodostelmaluistelun alkuperä</h1>
 	</header>
