@@ -10,29 +10,25 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-	<nav>
-		<div class="topnav">
-				  <a class="navbar-brand" href="index.html"><img src="./kuvat/kuva4.jpg" alt="kuva ei saatavilla" width="35" height="35"></a>
-				<a class="nav-link" href="index.html">Muodostelmaluistelu</a>
-				<a class="nav-link active" href="second.html">Kilpaileminen</a>
-				<a class="nav-link" href="third.html">MM-Kilpailut</a>
-				<a class="nav-link" href="fourth.html">SM-Seniorit</a>
-			<div class="search-container">
-		<form action="#">
-      <input type="text" placeholder="Hae.." name="Hae">
+	<ul class="topnav">
+	  <li><a class="navbar-brand" href="index.html"><img src="./kuvat/kuva4.jpg" alt="kuva ei saatavilla" width="35" height="35"></a></li>
+			<li><a href="index.html">Muodostelmaluistelu</a></li>
+				<li class="active"><a href="second.html">Kilpaileminen</a></li>
+					<li><a href="third.html">MM-Kilpailut</a></li>
+				<li><a href="fourth.html">SM-Seniorit</a></li>
+			<form action="#">
+		<input type="text" placeholder="Hae.." name="Hae">
       <button type="Submit">Lähetä</button>
 		</form>
-		<button id="b2" onclick="myFunction()">vaalea/tumma tausta</button>
-	<script>
+			<button id="b4" onclick="myFunction()">vaalea/tumma tausta</button>
+		<script>
 	function myFunction() {
 	var element = document.body;
 	element.classList.toggle("dark-mode");
 	}
-	</script>
-		</div>
-		</div>
-		</nav>
-				<header>
+		</script>
+		</ul>
+	<header>
 	<h1>Kilpaileminen</h1>
 	</header>
 	<p id="p3">Lajissa on yhteensä 10 eri sarjaa, jossa voi kilpailla Suomessa ja halutessaan myös ulkomailla. Sen lisäksi on Elite-12 sarja. Suomessa on vasta tänä vuonna perustettu ensimmäinen Elite-12 joukkue, jonka takia täältä Suomesta ei löydy vastusta joukkueelle. Kuitenkin he voivat osallistua SM-valintakilpailuihin samalla tavalla kuin muutkin SM-tason joukkueet. </p>
