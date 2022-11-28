@@ -25,6 +25,7 @@ header {
 
 #b1, #b2, #b3, #b4 {
 	background-color: gray;
+	float: right;
 }
 
 ul.topnav {
@@ -76,6 +77,10 @@ ul.topnav li a.active {
   	font-size: 17px;
   	border: none;
   	cursor: pointer;
+}
+
+form {
+	float: right;
 }
 
 #image1, #image2, #image3 {
@@ -142,11 +147,6 @@ p {
  	margin-bottom: 20px;
 } 
 
-section {
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
 #teksti {
 	margin-left: 20px;
 	color: blue;
@@ -176,6 +176,7 @@ table, td {
   	padding: 3px 3px 3px 3px;
   	margin-bottom: 30px;
 }
+
 footer {
 	width: 100%;
 	background-image: url("./kuvat/kuva6.jfif");
@@ -215,7 +216,7 @@ footer {
   	color: lightgray !important;
 }
 
-@media screen (max-width: 600px) {
+@media (max-width: 600px) {
 	
 ul.topnav li.right, ul.topnav li {
 	  float: none;
