@@ -78,8 +78,13 @@ ul.topnav li a.active {
   	cursor: pointer;
 }
 
+#image1, #image2, #image3 {
+	padding-right: 45px;
+	padding-left: 45px;
+}
+
 h1 {
-  	font-size: 90px;
+  	font-size: 60px;
   	color: white;
   	text-align: center;
 }
@@ -219,13 +224,5 @@ ul.topnav li.right, ul.topnav li {
 img.responsive {
 	width: 100px;
 }
-
-#heikki1 {
-	font-size: 60px;
- }
-
-h1 {
-	font-size: 80px;
- }
 }
 
